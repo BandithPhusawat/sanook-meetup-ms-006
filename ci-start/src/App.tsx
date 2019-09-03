@@ -31,16 +31,16 @@ const App: React.FC = () => {
             id="name"
             value={name}
             onChange={e => setName(e.target.value)}
-            placeholder="Name"
+            placeholder="....Username...."
             className="form-field"
             required
             autoFocus />
-          <input type="email"
+          <input type="....email...."
             name="email"
             id="email"
             value={email}
             onChange={e => setEmail(e.target.value)}
-            placeholder="Email"
+            placeholder="....Email...."
             className="form-field"
             required />
           <textarea
